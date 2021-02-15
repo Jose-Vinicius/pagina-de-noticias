@@ -1,0 +1,41 @@
+*{
+    list-style-type: none; 
+    text-decoration: none;
+}
+body{
+    background: #fff url(../media/fundo.png) repeat-x top;
+}
+
+#main{
+    width: 800px;
+    margin: 0 auto;
+    border: 1px solid red;
+}
+header{
+    height: 150px;
+    background: url(../media/detalhe-topo.png) no-repeat right top;
+    padding-top: 25px;
+    border: 1px solid red;
+}
+.logo{
+    width: 152px;
+    height: 66px;
+    margin-top: -20px;
+    background: url(../media/logo.png) no-repeat;
+    text-indent: -3000px;
+    border: 1px solid red;
+}
+.nav-bar-top{
+    margin: 30px -30px;
+}
+.nav-bar-top li{
+    list-style-type: none;
+    float: left;
+    padding: 10px;
+    font-size: 1.3em;
+    cursor: pointer;
+    background:rgb(104, 0, 0) url(../media/divisor.png) no-repeat left;
+}
+.nav-bar-top li a{
+    color: white;
+}
