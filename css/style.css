@@ -9,13 +9,13 @@ body{
 #main{
     width: 800px;
     margin: 0 auto;
-    border: 1px solid red;
+    
 }
 header{
     height: 150px;
     background: url(../media/detalhe-topo.png) no-repeat right top;
     padding-top: 25px;
-    border: 1px solid red;
+    
 }
 .logo{
     width: 152px;
@@ -23,19 +23,57 @@ header{
     margin-top: -20px;
     background: url(../media/logo.png) no-repeat;
     text-indent: -3000px;
-    border: 1px solid red;
 }
 .nav-bar-top{
-    margin: 30px -30px;
+    width: 800px;
+    margin: 30px -40px;
 }
 .nav-bar-top li{
     list-style-type: none;
     float: left;
-    padding: 10px;
-    font-size: 1.3em;
+    padding: 15px 20px;
+    font-size: 1.1em;
     cursor: pointer;
-    background:rgb(104, 0, 0) url(../media/divisor.png) no-repeat left;
+    background:rgb(104, 0, 0) url(../media/divisor.png) no-repeat left center;
 }
 .nav-bar-top li a{
     color: white;
+    transition: 0.25s;
+}
+.nav-bar-top li.primeiro{
+    background: rgb(104, 0, 0) url(..media/divisor.png) no-repeat right center;
+}
+.nav-bar-top .atual{
+    background-color: rgb(148, 0, 0);
+}
+.nav-bar-top li a:hover{
+    color: black;
+}
+.nav-bar-top li:hover{
+    background-color: rgb(148, 0, 0);
+}
+
+#conteudo{
+    background-color: #f5f5f5;
+    margin-top:60px;
+}
+#primario{
+    width: 290px;
+    float: left;
+    background-color: aqua;
+}
+#secundario{
+    width: 290px;
+    float: left;
+    background-color: beige;
+}
+#lateral{
+    width:190px;
+    float: left;
+    background-color: blueviolet;
+}
+footer{
+    background: #294c71;
+    padding: 20px;
+    clear:both;
 }
