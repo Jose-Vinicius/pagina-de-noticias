@@ -57,23 +57,45 @@ header{
     background-color: #f5f5f5;
     margin-top:60px;
 }
-#primario{
+#tres-colunas #primario {
     width: 290px;
     float: left;
+    margin: 0 0 20px 195px;
     background-color: aqua;
+}
+#duas-colunas #primario {
+    width: 595px;
+    float: left;
+    margin: 0 0 20px 195px;
+    background-color: aqua;
+}
+#uma-coluna #primario{
+    width: 800px;
+    float: left;
+    margin: 0 0 20px 0;
+    background-color: aqua; 
 }
 #secundario{
     width: 290px;
     float: left;
+    margin: 0 0 20px 15px;
     background-color: beige;
 }
 #lateral{
     width:190px;
     float: left;
+    margin: 0 0 20px -800px;
     background-color: blueviolet;
 }
+
 footer{
     background: #294c71;
     padding: 20px;
     clear:both;
+}
+#rodape{
+    width: 800px;
+    font-size: 1.3em;
+    margin: 0 auto;
+    color: #fff;
 }
