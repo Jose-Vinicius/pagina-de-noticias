@@ -1,4 +1,8 @@
-*{
+*{  
+    margin: 0px; 
+    padding: 0px; 
+    font-size: 10px; 
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
     list-style-type: none; 
     text-decoration: none;
 }
@@ -6,11 +10,16 @@ body{
     background: #fff url(../media/fundo.png) repeat-x top;
 }
 
+ul{
+    margin: 0;
+    padding: 0;
+}
+
 #main{
     width: 800px;
     margin: 0 auto;
-    
 }
+/*Cabeçalho*/
 header{
     height: 150px;
     background: url(../media/detalhe-topo.png) no-repeat right top;
@@ -23,19 +32,21 @@ header{
     background: url(../media/logo.png) no-repeat;
     text-indent: -3000px;
 }
+
+/*barra de navegação*/
 .nav-bar-top{
     width: 800px;
-    margin: 30px -40px;
+    margin: 30px -10px;
 }
 .nav-bar-top li{
     list-style-type: none;
     float: left;
     padding: 15px 20px;
-    font-size: 1.1em;
     cursor: pointer;
     background:rgb(104, 0, 0) url(../media/divisor.png) no-repeat left center;
 }
 .nav-bar-top li a{
+    font-size: 1.5em;
     color: white;
     transition: 0.25s;
 }
@@ -51,6 +62,7 @@ header{
 .nav-bar-top li:hover{
     background-color: rgb(148, 0, 0);
 }
+/*Cabeçalho*/
 
 #conteudo{
     background-color: #f5f5f5;
@@ -60,7 +72,6 @@ header{
     width: 290px;
     float: left;
     margin: 0 0 20px 195px;
-    background-color: aqua;
 }
 #duas-colunas #primario {
     width: 595px;
@@ -73,7 +84,6 @@ header{
     width: 290px;
     float: left;
     margin: 0 0 20px 15px;
-    background-color: beige;
 }
 #lateral{
     width:190px;
@@ -87,10 +97,51 @@ header{
     background: #f3f3f3 url(../media/fundo-caixa.png);
 }
 h2{
-    font-size: 1.8em;
+    font-size: 2em;
+    padding: 3px;
     background: #294c71;
     color: #fff;
 }
+.caixa-conteudo{
+    background: #fff;
+    margin: 10px 0;
+    padding: 5px ;
+}
+#lateral ul a{
+    font-size: 1.3em;
+    padding: 3px;
+    display: block;
+    line-height:30px;
+    color: #000;
+    text-decoration: none;
+    border-bottom: 1px solid #f3f3f3;
+    transition: 0.25s;
+}
+#lateral ul a:hover{
+    padding-left:20px;
+    color: #a1a1a1;
+    background: #f9f9f9 url(../media/marcador.png) no-repeat left center;
+}
+
+/*Newsletter*/
+.caixa-conteudo form label{
+    font-size:1.8em;
+}
+.caixa-conteudo form input{
+    width: 150px;
+    padding: 5px;
+    margin: 6px 0px;
+    font-size: 1.3em;
+    text-align: center;
+    outline:none;
+}
+.caixa-conteudo form button{
+    width: 165px;
+    text-align: center;
+    font-size: 1.6em;
+    font-weight: 600;
+}
+
 
 footer{
     background: #294c71;
