@@ -15,7 +15,6 @@ header{
     height: 150px;
     background: url(../media/detalhe-topo.png) no-repeat right top;
     padding-top: 25px;
-    
 }
 .logo{
     width: 152px;
@@ -57,7 +56,7 @@ header{
     background-color: #f5f5f5;
     margin-top:60px;
 }
-#tres-colunas #primario {
+#primario {
     width: 290px;
     float: left;
     margin: 0 0 20px 195px;
@@ -65,15 +64,10 @@ header{
 }
 #duas-colunas #primario {
     width: 595px;
-    float: left;
-    margin: 0 0 20px 195px;
-    background-color: aqua;
 }
 #uma-coluna #primario{
     width: 800px;
-    float: left;
     margin: 0 0 20px 0;
-    background-color: aqua; 
 }
 #secundario{
     width: 290px;
@@ -84,8 +78,18 @@ header{
 #lateral{
     width:190px;
     float: left;
-    margin: 0 0 20px -800px;
-    background-color: blueviolet;
+    margin: 0 0 0 -800px;
+}
+
+.caixa{
+    margin: 10px 0;
+    padding: 5px 5px ;
+    background: #f3f3f3 url(../media/fundo-caixa.png);
+}
+h2{
+    font-size: 1.8em;
+    background: #294c71;
+    color: #fff;
 }
 
 footer{
