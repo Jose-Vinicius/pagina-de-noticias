@@ -156,6 +156,7 @@ h2{
     font-size: 1.6em;
     font-weight: 600;
     color: #fff;
+    cursor: pointer;
     border: 1px solid #870519;
     background-color:#b10333;
 }
@@ -216,7 +217,12 @@ footer{
 }
 #rodape{
     width: 800px;
-    font-size: 1.3em;
+    text-align: center;
+    font-size: 1.8em;
     margin: 0 auto;
     color: #fff;
+}
+#rodape a{
+    color: white;
+    font-size: 1em;
 }
