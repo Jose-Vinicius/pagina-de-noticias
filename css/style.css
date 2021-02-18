@@ -13,6 +13,11 @@ body{
 ul{
     margin: 0;
     padding: 0;
+    list-style: none;
+}
+a, a:visited{
+    color: rgb(163, 0, 0);
+    font-weight: 500;
 }
 
 #main{
@@ -36,7 +41,7 @@ header{
 /*barra de navegação*/
 .nav-bar-top{
     width: 800px;
-    margin: 30px -10px;
+    margin: 50px -10px;
 }
 .nav-bar-top li{
     list-style-type: none;
@@ -126,6 +131,8 @@ h2{
 /*Newsletter*/
 .caixa-conteudo form label{
     font-size:1.8em;
+    display: block;
+    cursor: pointer;
 }
 .caixa-conteudo form input{
     width: 150px;
@@ -135,13 +142,72 @@ h2{
     text-align: center;
     outline:none;
 }
+.caixa h3{
+    background: #b10333;
+    display: inline;
+    padding: 5px;
+    font-size: 1.8em;
+    margin: 5px 0;
+    color: #fff;}
 .caixa-conteudo form button{
     width: 165px;
+    line-height: 25px;
     text-align: center;
     font-size: 1.6em;
     font-weight: 600;
+    color: #fff;
+    border: 1px solid #870519;
+    background-color:#b10333;
+}
+.caixa-conteudo img{
+    width: 100%;   
+    margin-top: 10px;
+}
+.caixa-conteudo p{
+    font-size: 1.5em;
+}.caixa-conteudo a{
+    font-size:1.5em;
 }
 
+.caixa-conteudo-b{
+    background: #fff;
+}
+.caixa-conteudo-b h1{
+    padding: 2px;
+    font-size: 1.6em;
+    text-transform: uppercase;
+    color: black;
+}
+.caixa-conteudo-b p{
+    font-size: 1.2em;
+    color: rgb(63, 63, 63);
+}
+.caixa-conteudo-b img{
+    width: 30%;
+    float:left;
+    margin: 6px 3px;
+}
+
+#caixa-adaptavel img{
+    width: 15%;
+    float:left;
+    margin: 6px 3px;
+}
+
+.caixa-conteudo-b li{
+    padding: 2px;
+    border-bottom: 2px solid #ccc;
+    height: 65px;
+    transition: 0.25s;
+}
+#caixa-adaptavel-f img{
+    width: 11%;
+
+}
+.caixa-conteudo-b li:hover{
+    background: #eee;
+    cursor: pointer;
+}
 
 footer{
     background: #294c71;
